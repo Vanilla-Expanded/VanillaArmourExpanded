@@ -281,7 +281,7 @@
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0.1</generateCommonality>
-		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+		
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>

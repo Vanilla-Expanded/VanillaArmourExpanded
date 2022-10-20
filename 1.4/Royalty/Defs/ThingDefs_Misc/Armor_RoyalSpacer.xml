@@ -291,7 +291,7 @@
 			<Uranium>40</Uranium>
 			<Gold>18</Gold>
 		</costList>
-		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+		
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<WorkToMake>158000</WorkToMake>
