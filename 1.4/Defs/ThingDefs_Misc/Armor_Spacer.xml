@@ -49,6 +49,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>TrooperArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -141,6 +142,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>TrooperArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -229,6 +231,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>SiegebreakerArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -328,6 +331,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>SiegebreakerArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

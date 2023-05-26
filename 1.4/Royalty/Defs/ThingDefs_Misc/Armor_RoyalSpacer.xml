@@ -123,7 +123,7 @@
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
-		<MoveSpeed>0.5</MoveSpeed>
+			<MoveSpeed>0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -235,6 +235,7 @@
 			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
+				<li>PresSiegebreakerArmorSet</li>
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
@@ -291,7 +292,6 @@
 			<Uranium>40</Uranium>
 			<Gold>18</Gold>
 		</costList>
-		
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<WorkToMake>158000</WorkToMake>
@@ -335,6 +335,7 @@
 			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
+				<li>PresSiegebreakerArmorSet</li>
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
