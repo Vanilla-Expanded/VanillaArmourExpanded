@@ -280,7 +280,7 @@
 			<texPath>Things/Apparel/SiegebreakerArmor/SiegebreakerArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<uiIconScale>1.25</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0.1</generateCommonality>
