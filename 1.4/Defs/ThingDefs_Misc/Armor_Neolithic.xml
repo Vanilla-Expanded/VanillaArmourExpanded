@@ -13,18 +13,15 @@
 		<techLevel>Neolithic</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>1</generateCommonality>
-		<costStuffCount>60</costStuffCount>
-		<costList>
-			<Cloth>30</Cloth>
-		</costList>
+		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
 			<li>Woody</li>
 		</stuffCategories>
 		<smeltable>false</smeltable>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>4200</WorkToMake>
-			<Mass>6</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>3200</WorkToMake>
+			<Mass>4</Mass>
 			<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.24</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
@@ -42,7 +39,6 @@
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
-				<li>Shoulders</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/WoodenArmor/WoodenArmor</wornGraphicPath>
 			<layers>
