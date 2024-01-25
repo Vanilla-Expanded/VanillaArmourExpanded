@@ -89,7 +89,7 @@
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.15</MoveSpeed>
+			<MoveSpeed>0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>VAE_BootsAndGloves</li>
