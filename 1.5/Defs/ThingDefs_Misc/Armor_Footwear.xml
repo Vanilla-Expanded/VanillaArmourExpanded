@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-    <!-- ##### Medieval ##### -->
-    <!-- +++++ Plate Gloves +++++ -->
-    <ThingDef ParentName="ApparelMakeableBase">
-		<defName>VAE_Handwear_PlateGloves</defName>
-		<label>plate gloves</label>
-		<description>A pair of simple metal gloves. Due to the thickness of the material, they reduce general work speed of the wearer.</description>
+	<!-- ##### Medieval ##### -->
+	<!-- +++++ Plate Boots +++++ -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>VAE_Footwear_PlateBoots</defName>
+		<label>plate boots</label>
+		<description>A pair of simple plate boots. Due to their weight, they slow down the wearer.</description>
 		<graphicData>
-			<texPath>Things/Handwear/PlateGloves</texPath>
+			<texPath>Things/Footwear/PlateBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>1000</WorkToMake>
-			<Mass>2.2</Mass>
+			<WorkToMake>6800</WorkToMake>
+			<Mass>3</Mass>
 			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2.5</EquipDelay>
+			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal> 
+			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
-				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Middle</li>
@@ -45,7 +45,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>PlateArmor</researchPrerequisite>
@@ -57,22 +57,21 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-	
-    <!-- ##### Spacer ##### -->
-    <!-- +++++ Marine Gloves +++++ -->
-    <ThingDef ParentName="ApparelMakeableBase">
-		<defName>VAE_Handwear_MarineGloves</defName>
-		<label>marine gloves</label>
-		<description>A pair of marine gloves with enhanced grip assistance and set of embedded recoil stabilisers.</description>
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+	</ThingDef>
+	<!-- ##### Spacer ##### -->
+	<!-- +++++ Marine Boots +++++ -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>VAE_Footwear_MarineBoots</defName>
+		<label>marine boots</label>
+		<description>A pair of marine boots with layered plasteel plates and enhanced servomotors.</description>
 		<graphicData>
-			<texPath>Things/Handwear/PowerArmorGloves</texPath>
+			<texPath>Things/Footwear/PowerArmorBoots</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costList>
 			<Plasteel>20</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -86,31 +85,37 @@
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.7</ArmorRating_Heat>
 			<Insulation_Cold>2</Insulation_Cold>
- 			<Insulation_Heat>4</Insulation_Heat>
-            <EquipDelay>2.5</EquipDelay>
-		</statBases>	
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
 		<equippedStatOffsets>
-			<ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+			<MoveSpeed>0.05</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
 		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
-				<li>Hands</li>
+				<li>Feet</li>
 			</bodyPartGroups>
 			<layers>
 				<li>Middle</li>
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier3</li>
+				<li>RoyalTier4</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<researchPrerequisite>PoweredArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
@@ -119,7 +124,8 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_Options"> <!-- Vanilla Power Armor -->
+		<colorGenerator Class="ColorGenerator_Options">
+			<!-- Vanilla Power Armor -->
 			<options>
 				<li>
 					<weight>10</weight>
@@ -140,6 +146,5 @@
 				</li>
 			</options>
 		</colorGenerator>
-    </ThingDef>
-
+	</ThingDef>
 </Defs>
