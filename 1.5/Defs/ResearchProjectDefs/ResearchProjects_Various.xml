@@ -13,6 +13,15 @@
 		</prerequisites>
   <researchViewX>1.00</researchViewX>
   <researchViewY>1.35</researchViewY>
+  <generalRules>
+  <rulesStrings>
+    <li>subject->art of leathercraft</li>
+    <li>subject_story->rediscovered ancient tanning recipes for unmatched durability</li>
+    <li>subject_story->introduced waterproofing techniques that defy harsh weathers</li>
+    <li>subject_story->crafted armors that blend tradition with battlefield necessity</li>
+    <li>subject_gerund->mastering leather tanning</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -27,6 +36,15 @@
 		</prerequisites>
   <researchViewX>5.00</researchViewX>
   <researchViewY>1.95</researchViewY>
+  <generalRules>
+  <rulesStrings>
+    <li>subject->environmental safeguarding</li>
+    <li>subject_story->engineered suits that turn toxic wastelands into walkable lands</li>
+    <li>subject_story->developed radiation shields woven into the fabric of uniforms</li>
+    <li>subject_story->created attire that allows safe research in deadly environments</li>
+    <li>subject_gerund->enhancing hazard resistance</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -41,6 +59,15 @@
 		</prerequisites>
   <researchViewX>4.00</researchViewX>
   <researchViewY>2.55</researchViewY>
+  <generalRules>
+  <rulesStrings>
+    <li>subject->stealth and mimicry</li>
+    <li>subject_story->designed gear that mimics the environment, making soldiers invisible</li>
+    <li>subject_story->studied animals' camouflage to apply their patterns to military apparel</li>
+    <li>subject_story->outfitted scouts with wear that blends seamlessly into surroundings</li>
+    <li>subject_gerund->camouflaging the forces</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -60,6 +87,15 @@
 		</prerequisites>
   <researchViewX>8.00</researchViewX>
   <researchViewY>3.05</researchViewY>
+  <generalRules>
+  <rulesStrings>
+    <li>subject->fortified march</li>
+    <li>subject_story->forged armor that withstands artillery, turning soldiers into walking tanks</li>
+    <li>subject_story->integrated advanced tech for unmatched endurance on the battlefield</li>
+    <li>subject_story->developed exoskeletons that bear the brunt, safeguarding the wearer</li>
+    <li>subject_gerund->constructing siegebreaker defenses</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef>
@@ -79,6 +115,15 @@
 		</prerequisites>
   <researchViewX>7.00</researchViewX>
   <researchViewY>3.05</researchViewY>
+  <generalRules>
+  <rulesStrings>
+    <li>subject->agile protection</li>
+    <li>subject_story->innovated with lightweight materials for rapid troop deployment</li>
+    <li>subject_story->balanced protection with mobility, setting new standards for combat gear</li>
+    <li>subject_story->pioneered the use of semi-powered armor in skirmishes</li>
+    <li>subject_gerund->equipping rapid response units</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 </Defs>
