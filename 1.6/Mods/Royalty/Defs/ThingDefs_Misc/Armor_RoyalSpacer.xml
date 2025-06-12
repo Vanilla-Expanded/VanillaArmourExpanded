@@ -123,7 +123,7 @@
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
-		<MoveSpeed>0.5</MoveSpeed>
+			<MoveSpeed>0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -235,6 +235,7 @@
 			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
+				<li>PresSiegebreakerArmorSet</li>
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
@@ -281,7 +282,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconScale>1.25</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<costList>
@@ -291,7 +292,6 @@
 			<Uranium>40</Uranium>
 			<Gold>18</Gold>
 		</costList>
-		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<WorkToMake>158000</WorkToMake>
@@ -335,6 +335,7 @@
 			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
+				<li>PresSiegebreakerArmorSet</li>
 			</tags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
 		</apparel>
@@ -371,8 +372,8 @@
 			</options>
 		</colorGenerator>
 		<comps>
-			<li Class="VFECore.CompProperties_ShieldBubble">
-				<compClass>VFECore.CompShieldBubble</compClass>
+			<li Class="VEF.Apparels.CompProperties_ShieldBubble">
+				<compClass>VEF.Apparels.CompShieldBubble</compClass>
 				<blockRangedAttack>true</blockRangedAttack>
 				<blockMeleeAttack>false</blockMeleeAttack>
 				<showWhenDrafted>true</showWhenDrafted>

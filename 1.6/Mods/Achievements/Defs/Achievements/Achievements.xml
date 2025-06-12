@@ -5,7 +5,7 @@
 		<defName>Juggernaut</defName>
 		<label>JUGGERNAUT!</label>
 		<description>Craft a masterwork stone war mask</description>
-		<tab>VanillaExpanded</tab>
+		<tab>VanillaExpanded_Armour</tab>
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>VAE_Headgear_StoneWarMask</def>
 			<quality>Legendary</quality>
@@ -20,7 +20,7 @@
 		<defName>iDontSeeAnyone</defName>
 		<label>I Don't See Anyone!</label>
 		<description>Craft a ghillie suit</description>
-		<tab>VanillaExpanded</tab>
+		<tab>VanillaExpanded_Armour</tab>
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>VAE_Apparel_GhillieSuit</def>
 			<count>1</count>
@@ -34,7 +34,7 @@
 		<defName>notGreatNotTerrible</defName>
 		<label>Not Great, not Terrible</label>
 		<description>Craft 6 HAZMAT suits</description>
-		<tab>VanillaExpanded</tab>
+		<tab>VanillaExpanded_Armour</tab>
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>VAE_Apparel_HAZMATSuit</def>
 			<count>6</count>
@@ -48,7 +48,7 @@
 		<defName>leatherThatsKinky</defName>
 		<label>Leather? That's Kinky</label>
 		<description>Research leather tanning</description>
-		<tab>VanillaExpanded</tab>
+		<tab>VanillaExpanded_Armour</tab>
 		<tracker Class="AchievementsExpanded.ResearchTracker">
 			<def>VAE_LeatherTanning</def>
 		</tracker>
@@ -61,7 +61,7 @@
 		<defName>sierra117</defName>
 		<label>Sierra 117</label>
 		<description>Craft a masterwork quality heavy marine armor</description>
-		<tab>VanillaExpanded</tab>
+		<tab>VanillaExpanded_Armour</tab>
 		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>VAE_Apparel_HeavyMarineArmor</def>
 			<quality>Masterwork</quality>

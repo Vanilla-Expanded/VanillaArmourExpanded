@@ -58,125 +58,7 @@
 		<colorGenerator Class="ColorGenerator_StandardApparel" />
     </ThingDef>
 
-    <!-- +++++ Omni-Spectrum goggles +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
-		<defName>VAE_Headgear_NightVisionGoggles</defName>
-		<label>omni-spectrum goggles</label>
-		<description>A set of omni-vision goggles which enhance the wearer's ability to detect targets, improving target aquisition.</description>
-		<graphicData>
-			<texPath>Things/Headgear/NightVisionGoggles/NightVisionGoggles</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<techLevel>Industrial</techLevel>
-		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.03</generateCommonality>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>15</Plasteel>
-		</costList>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>8000</WorkToMake>
-			<Mass>0.5</Mass>
-			<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0</ArmorRating_Blunt>
-			<ArmorRating_Heat>0</ArmorRating_Heat>
-			<Insulation_Cold>0</Insulation_Cold>
- 			<Insulation_Heat>0</Insulation_Heat>
-            <EquipDelay>0.5</EquipDelay>
-		</statBases>
-		<equippedStatOffsets>
-			<AimingDelayFactor>-0.10</AimingDelayFactor>
-		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
-		<apparel>
-			<bodyPartGroups>
-				<li>Eyes</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Headgear/NightVisionGoggles/NightVisionGoggles</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-			<tags>
-				<li>IndustrialMilitary</li>
-				<li>IndustrialAdvanced</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-            </defaultOutfitTags>
-		</apparel>
-		<recipeMaker>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>9</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FabricationBench</li>
-			</recipeUsers>
-		</recipeMaker>
-    </ThingDef>
-
-    <!-- +++++ Flak Goggles +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
-		<defName>VAE_Headgear_BallisticGoggles</defName>
-		<label>flak goggles</label>
-		<description>A pair of reinforced goggles capable of stopping shrapnel, and possibly a bullet.</description>
-		<graphicData>
-			<texPath>Things/Headgear/BallisticGoggles/BallisticGoggles</texPath>
-			<graphicClass>Graphic_Single</graphicClass> 
-		</graphicData>
-		<techLevel>Industrial</techLevel>
-		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.05</generateCommonality>
-		<costList>
-			<Cloth>15</Cloth>
-			<Steel>30</Steel>
-		</costList>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToMake>6500</WorkToMake>
-			<Mass>0.2</Mass>
-			<ArmorRating_Sharp>0.72</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.70</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
- 			<Insulation_Heat>2</Insulation_Heat>
-            <EquipDelay>0.6</EquipDelay>
-		</statBases>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
-		<apparel>
-			<bodyPartGroups>
-				<li>Eyes</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Headgear/BallisticGoggles/BallisticGoggles</wornGraphicPath>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-			<tags>
-				<li>IndustrialMilitary</li>
-				<li>IndustrialAdvanced</li>
-			</tags>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-            </defaultOutfitTags>
-		</apparel>
-		<recipeMaker>
-		<researchPrerequisite>FlakArmor</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>5</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>TableMachining</li>
-			</recipeUsers>
-		</recipeMaker>
-    </ThingDef>
-
+   
     <!-- +++++ Ghillie Hood +++++ -->
     <ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_GhillieHood</defName>
@@ -273,7 +155,8 @@
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.25</PsychicSensitivity>
-			<ToxicSensitivity>-0.25</ToxicSensitivity>
+			<ToxicResistance>0.25</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.2</ToxicEnvironmentResistance>
 			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 		</equippedStatOffsets>
     <thingCategories Inherit='False'>

@@ -94,7 +94,7 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			
 			<wornGraphicPath>Things/Apparel/QuiltedVest/QuiltedVest</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
@@ -146,7 +146,7 @@
 			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.12</MoveSpeed>
+			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
     <thingCategories Inherit='False'>
       <li>ApparelArmor</li>
@@ -157,7 +157,7 @@
 				<li>Shoulders</li>
 				<li>Arms</li>
 			</bodyPartGroups>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		
 			<wornGraphicPath>Things/Apparel/LightPlateArmor/LightPlateArmor</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
@@ -209,6 +209,9 @@
 			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>6</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
     <thingCategories Inherit='False'>
       <li>ApparelArmor</li>
     </thingCategories>
@@ -216,7 +219,7 @@
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+			
 			<wornGraphicPath>Things/Apparel/PlateShoulderpads/PlateShoulderpads</wornGraphicPath>
 			<layers>
 				<li>Shell</li>

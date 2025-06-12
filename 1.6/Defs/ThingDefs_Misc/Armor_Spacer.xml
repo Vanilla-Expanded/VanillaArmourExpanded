@@ -32,6 +32,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.6</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ArmorHeadgear</li>
@@ -49,6 +50,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>TrooperArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -119,6 +121,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.25</VacuumResistance>
 		<MoveSpeed>0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
@@ -141,6 +144,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>TrooperArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -212,6 +216,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit='False'>
 			<li>ArmorHeadgear</li>
@@ -229,6 +234,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>SiegebreakerArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -277,11 +283,11 @@
 			<texPath>Things/Apparel/SiegebreakerArmor/SiegebreakerArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<uiIconScale>1.25</uiIconScale>
+		<uiIconScale>1</uiIconScale>
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0.1</generateCommonality>
-		<thingClass>VFECore.Apparel_ShieldBubble</thingClass>
+		
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -306,6 +312,7 @@
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
 			<MoveSpeed>-1.1</MoveSpeed>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit='False'>
 			<li>ApparelArmor</li>
@@ -328,6 +335,7 @@
 			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
+				<li>SiegebreakerArmorSet</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -367,8 +375,8 @@
 			</options>
 		</colorGenerator>
 		<comps>
-			<li Class="VFECore.CompProperties_ShieldBubble">
-				<compClass>VFECore.CompShieldBubble</compClass>
+			<li Class="VEF.Apparels.CompProperties_ShieldBubble">
+				<compClass>VEF.Apparels.CompShieldBubble</compClass>
 				<blockRangedAttack>true</blockRangedAttack>
 				<blockMeleeAttack>false</blockMeleeAttack>
 				<showWhenDrafted>true</showWhenDrafted>
