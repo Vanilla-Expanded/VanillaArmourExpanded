@@ -58,6 +58,9 @@
 			</recipeUsers>
 		</recipeMaker>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- ##### Spacer ##### -->
 	<!-- +++++ Marine Gloves +++++ -->
@@ -147,5 +150,9 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 </Defs>

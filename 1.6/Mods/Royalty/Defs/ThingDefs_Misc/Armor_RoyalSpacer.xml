@@ -35,6 +35,7 @@
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.6</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ArmorHeadgear</li>
@@ -88,6 +89,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Prestige Trooper Armor +++++ -->
 	<ThingDef ParentName="ArmorMachineableBase">
@@ -124,6 +129,7 @@
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
 			<MoveSpeed>0.5</MoveSpeed>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.25</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -181,6 +187,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Prestige Siegebreaker Helmet +++++ -->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -217,6 +227,7 @@
 			<PainShockThreshold>0.05</PainShockThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ArmorHeadgear</li>
@@ -271,6 +282,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Prestige Siegebreaker Armor +++++ -->
 	<ThingDef ParentName="ApparelArmorPowerBase">
@@ -305,13 +320,14 @@
 			<Insulation_Heat>11</Insulation_Heat>
 			<EquipDelay>20</EquipDelay>
 			<EnergyShieldRechargeRate>0.02</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
+			<EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
 		</statBases>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
 			<PsychicSensitivity>0.05</PsychicSensitivity>
 			<PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
 			<MoveSpeed>-1.1</MoveSpeed>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -380,12 +396,14 @@
 				<showOnHostiles>true</showOnHostiles>
 				<showOnNeutralInCombat>true</showOnNeutralInCombat>
 				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
-				<EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
-				<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
 				<minShieldSize>1.4</minShieldSize>
 				<maxShieldSize>1.8</maxShieldSize>
 				<disableRotation>true</disableRotation>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 </Defs>

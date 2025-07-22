@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ##### Industrial ##### -->
-   
-
-    <!-- +++++ Ghillie Suit +++++ -->
-    <ThingDef ParentName="ApparelMakeableBase">
+	<!-- ##### Industrial ##### -->
+	<!-- +++++ Ghillie Suit +++++ -->
+	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_GhillieSuit</defName>
 		<label>ghillie suit</label>
 		<description>A camouflage clothing designed to resemble the environment. Gives user more time to aim precisely, but provides little to no defence.</description>
@@ -14,7 +12,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.05</generateCommonality>
+		<generateCommonality>0.05</generateCommonality>
 		<costList>
 			<Cloth>35</Cloth>
 			<Hay>75</Hay>
@@ -28,17 +26,17 @@
 			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 			<Insulation_Cold>6</Insulation_Cold>
- 			<Insulation_Heat>0</Insulation_Heat>
-            <EquipDelay>4.1</EquipDelay>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>4.1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<HuntingStealth>0.80</HuntingStealth>
 			<AimingDelayFactor>0.1</AimingDelayFactor>
 			<ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -56,7 +54,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<comps>
 			<li Class="VEF.Apparels.CompProperties_Camouflage">
@@ -74,12 +72,12 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-    </ThingDef>
-
-    
-
-    <!-- +++++ HAZMAT Suit +++++ -->
-    <ThingDef ParentName="ApparelMakeableBase">
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- +++++ HAZMAT Suit +++++ -->
+	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_HAZMATSuit</defName>
 		<label>HAZMAT suit</label>
 		<description>A full body, impermeable piece of protective equipment providing a full protection against psychic and toxic effect.\n\nIt limits the movement and manipulation of the wearer as well as provides no defense against any form of attack.</description>
@@ -89,7 +87,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costStuffCount>100</costStuffCount>
 		<costList>
 			<Steel>30</Steel>
@@ -102,10 +100,10 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToMake>48000</WorkToMake>
 			<Mass>14</Mass>
-            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>15</EquipDelay>
+			<StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>2</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>15</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.75</PsychicSensitivity>
@@ -113,16 +111,16 @@
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
 			<MoveSpeed>-0.5</MoveSpeed>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Neck</li>
 				<li>Torso</li>
 				<li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
+				<li>Arms</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/HAZMATSuit/HAZMATSuit</wornGraphicPath>
 			<layers>
@@ -133,7 +131,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_HazardProtection</researchPrerequisite>
@@ -144,7 +142,10 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
 </Defs>

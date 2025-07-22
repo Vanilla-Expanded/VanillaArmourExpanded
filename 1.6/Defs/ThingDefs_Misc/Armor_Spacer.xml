@@ -89,6 +89,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Trooper Armor +++++ -->
 	<ThingDef ParentName="ArmorMachineableBase">
@@ -122,7 +126,7 @@
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.25</VacuumResistance>
-		<MoveSpeed>0.5</MoveSpeed>
+			<MoveSpeed>0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit="False">
 			<li>ApparelArmor</li>
@@ -183,6 +187,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Siegebreaker Helmet +++++ -->
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -273,6 +281,10 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<!-- +++++ Siegebreaker Armor +++++ -->
 	<ThingDef ParentName="ApparelArmorPowerBase">
@@ -287,7 +299,6 @@
 		<techLevel>Spacer</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0.1</generateCommonality>
-		
 		<costList>
 			<ComponentSpacer>6</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>
@@ -307,7 +318,7 @@
 			<Insulation_Heat>11</Insulation_Heat>
 			<EquipDelay>20</EquipDelay>
 			<EnergyShieldRechargeRate>0.02</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>0.4</EnergyShieldEnergyMax>
+			<EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
 		</statBases>
 		<equippedStatOffsets>
 			<PainShockThreshold>0.05</PainShockThreshold>
@@ -383,12 +394,14 @@
 				<showOnHostiles>true</showOnHostiles>
 				<showOnNeutralInCombat>true</showOnNeutralInCombat>
 				<shieldTexPath>Other/ShieldBubble</shieldTexPath>
-				<EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
-				<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
 				<minShieldSize>1.4</minShieldSize>
 				<maxShieldSize>1.8</maxShieldSize>
 				<disableRotation>true</disableRotation>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 </Defs>

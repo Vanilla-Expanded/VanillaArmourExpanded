@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ##### Industrial ##### -->
-    <!-- +++++ Balaclava +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+	<!-- ##### Industrial ##### -->
+	<!-- +++++ Balaclava +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_Balaclava</defName>
 		<label>balaclava</label>
 		<description>A full face textile mask. Hides the identity of the wearer while providing warmth.</description>
@@ -12,7 +12,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.01</generateCommonality>
+		<generateCommonality>0.01</generateCommonality>
 		<costStuffCount>25</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
@@ -22,10 +22,10 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>2200</WorkToMake>
 			<Mass>0.35</Mass>
-            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>2</EquipDelay>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -46,7 +46,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_MilitaryClothing</researchPrerequisite>
@@ -55,12 +55,13 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-
-   
-    <!-- +++++ Ghillie Hood +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- +++++ Ghillie Hood +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_GhillieHood</defName>
 		<label>ghillie hood</label>
 		<description>A camouflage hood designed to resemble the environment. Gives user more time to aim precisely, but provides little to no defence.</description>
@@ -70,7 +71,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costList>
 			<Cloth>15</Cloth>
 			<Hay>35</Hay>
@@ -84,17 +85,17 @@
 			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
- 			<Insulation_Heat>0</Insulation_Heat>
-            <EquipDelay>0.6</EquipDelay>
+			<Insulation_Heat>0</Insulation_Heat>
+			<EquipDelay>0.6</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<HuntingStealth>0.20</HuntingStealth>
 			<AimingDelayFactor>0.1</AimingDelayFactor>
 			<ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ArmorHeadgear</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -109,7 +110,7 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_MlitaryCamouflage</researchPrerequisite>
@@ -120,12 +121,14 @@
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
-		<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
 		</recipeMaker>
-    </ThingDef>
-
-    <!-- +++++ HAZMAT mask +++++ -->
-    <ThingDef ParentName="HatMakeableBase">
+		<tradeTags>
+			<li>BasicClothing</li>
+		</tradeTags>
+	</ThingDef>
+	<!-- +++++ HAZMAT mask +++++ -->
+	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Headgear_HAZMATMask</defName>
 		<label>HAZMAT hood</label>
 		<description>A full head gas mask, which alongside the HAZMAT suit provides a full protection from toxic and psychic effects.</description>
@@ -135,7 +138,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<costStuffCount>35</costStuffCount>
 		<costList>
 			<Steel>20</Steel>
@@ -148,10 +151,10 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToMake>3500</WorkToMake>
 			<Mass>2</Mass>
-            <StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>1.4</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>10</EquipDelay>
+			<StuffEffectMultiplierArmor>0.04</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1.4</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.25</PsychicSensitivity>
@@ -159,23 +162,23 @@
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.2</ToxicEnvironmentResistance>
 			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ArmorHeadgear</li>
+		</thingCategories>
 		<apparel>
-      <bodyPartGroups>
-        <li>Eyes</li>
-      </bodyPartGroups>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
 			<wornGraphicPath>Things/Headgear/HAZMATMask/HAZMATMask</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
+			<layers>
+				<li>Overhead</li>
+			</layers>
 			<tags>
 				<li>SpacerMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>VAE_HazardProtection</researchPrerequisite>
@@ -186,7 +189,9 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
-
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
+	</ThingDef>
 </Defs>

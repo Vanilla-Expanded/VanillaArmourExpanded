@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <!-- ##### Medieval ##### -->
-    <!-- +++++ Gambeson +++++ -->
+	<!-- ##### Medieval ##### -->
+	<!-- +++++ Gambeson +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_Gambeson</defName>
 		<label>gambeson</label>
@@ -12,7 +12,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>75</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
@@ -27,9 +27,9 @@
 			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -58,10 +58,12 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Quilted Vest +++++ -->
+	<!-- +++++ Quilted Vest +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_QuiltedVest</defName>
 		<label>quilted vest</label>
@@ -72,7 +74,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>55</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
@@ -87,14 +89,13 @@
 			<StuffEffectMultiplierInsulation_Heat>0.21</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.8</EquipDelay>
 		</statBases>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			
 			<wornGraphicPath>Things/Apparel/QuiltedVest/QuiltedVest</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
@@ -117,10 +118,12 @@
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Light Plate Armor +++++ -->
+	<!-- +++++ Light Plate Armor +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_LightPlateArmor</defName>
 		<label>light plate armor</label>
@@ -131,7 +134,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>130</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -148,16 +151,15 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 			</bodyPartGroups>
-		
 			<wornGraphicPath>Things/Apparel/LightPlateArmor/LightPlateArmor</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
@@ -181,10 +183,12 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Plate Shoulderpads +++++ -->
+	<!-- +++++ Plate Shoulderpads +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_PlateShoulderpads</defName>
 		<label>plate shoulderpads</label>
@@ -195,7 +199,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>40</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -212,14 +216,13 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			
 			<wornGraphicPath>Things/Apparel/PlateShoulderpads/PlateShoulderpads</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
@@ -242,10 +245,12 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Chestplate +++++ -->
+	<!-- +++++ Chestplate +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_Chestplate</defName>
 		<label>chestplate</label>
@@ -256,7 +261,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>90</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -273,9 +278,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -303,10 +308,12 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Chainmail +++++ -->
+	<!-- +++++ Chainmail +++++ -->
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>VAE_Apparel_Chainmail</defName>
 		<label>chainmail</label>
@@ -317,7 +324,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>60</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -334,9 +341,9 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.1</MoveSpeed>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ApparelArmor</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -366,10 +373,12 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
-    <!-- +++++ Plate Helmet +++++ -->
+	<!-- +++++ Plate Helmet +++++ -->
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>VAE_Apparel_PlateHelmet</defName>
 		<label>plate helmet</label>
@@ -380,7 +389,7 @@
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.5</generateCommonality>
+		<generateCommonality>0.5</generateCommonality>
 		<costStuffCount>50</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -397,9 +406,9 @@
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
 		</equippedStatOffsets>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>ArmorHeadgear</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -426,7 +435,9 @@
 				<li>FueledSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
+		<colorGenerator Class="ColorGenerator_StandardApparel"/>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
-
 </Defs>

@@ -12,6 +12,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<graphicData>
 			<texPath>Things/Apparel/RiotArmor/RiotArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -83,12 +84,16 @@
 				</li>
 			</options>
 		</colorGenerator>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
 		<defName>VAE_Apparel_RiotHelmet</defName>
 		<label>riot helmet</label>
 		<description>A heavy combat helmet with a face covering plate. Often used by riot police units due to its effectiveness at protecting against blunt trauma.</description>
 		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
 		<recipeMaker>
 			<researchPrerequisite>FlakArmor</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -135,10 +140,14 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 	<ThingDef Name="VAE_Apparel_BaseShield" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
 		<techLevel>Industrial</techLevel>
 		<thingClass>VEF.Apparels.Apparel_Shield</thingClass>
+		<tradeability>Sellable</tradeability>
 		<apparel>
 			<careIfWornByCorpse>false</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
@@ -243,5 +252,8 @@
 				<compClass>CompColorable</compClass>
 			</li>
 		</comps>
+		<tradeTags>
+			<li>Armor</li>
+		</tradeTags>
 	</ThingDef>
 </Defs>
