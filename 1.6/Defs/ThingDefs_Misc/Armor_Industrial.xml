@@ -108,7 +108,7 @@
 		<equippedStatOffsets>
 			<PsychicSensitivity>-0.75</PsychicSensitivity>
 			<ToxicResistance>0.75</ToxicResistance>
-			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<MoveSpeed>-0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories Inherit='False'>
