@@ -314,8 +314,8 @@
 			<ArmorRating_Sharp>1.18</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.47</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.48</ArmorRating_Heat>
-			<Insulation_Cold>35</Insulation_Cold>
-			<Insulation_Heat>11</Insulation_Heat>
+			<Insulation_Cold>70</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
 			<EquipDelay>20</EquipDelay>
 			<EnergyShieldRechargeRate>0.02</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
